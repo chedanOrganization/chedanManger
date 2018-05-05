@@ -1416,10 +1416,11 @@ to {
 	padding-top:6px
 }
 .loginBlockForm {
-
 }
 .loginBlockForm input {
 	min-width:80%;
+	min-height: 48px;
 	margin-left: 10%;
+	padding-left: 10px;
 }
 

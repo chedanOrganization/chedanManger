@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <title>车单管理系统</title>
-    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="view/css/mycss.css">
 </head>
 
 <body>
@@ -27,13 +27,13 @@
                 <div id="lbNormal" class="loginFuncNormal">帐号登录</div>
             </div>
             <!-- TODO 邮箱帐号登录， 现在有点问题，去掉加载中逻辑 -->
-            <form class="loginBlockForm">
+            <form class="loginBlockForm" action="login/login.php" method="post">
                 <br/><br/><br/>
                 <input name="name" placeholder="请输入账号">
                 <br/><br/>
-                <input name="password" placeholder="请输入密码">
+                <input  name="password" placeholder="请输入密码">
                 <br/><br/><br/>
-                <input type="submit" value="注册" name="sub">
+                <input type="submit" value="登录" name="sub">
             </form>
 
         </div>
