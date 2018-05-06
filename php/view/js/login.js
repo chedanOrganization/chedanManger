@@ -15,3 +15,28 @@ function login(){
         window.location.href="";
     }
 }
+function showCreate() {
+    document.getElementById("createContent").style.display="block";
+    document.getElementById("deleteContent").style.display="none";
+    document.getElementById("updateContent").style.display="none";
+    document.getElementById("selectedContent").style.display="none";
+}
+function showDelete() {
+    document.getElementById("createContent").style.display="none";
+    document.getElementById("deleteContent").style.display="block";
+    document.getElementById("updateContent").style.display="none";
+    document.getElementById("selectedContent").style.display="none";
+}
+function showUpdate() {
+    document.getElementById("createContent").style.display="none";
+    document.getElementById("deleteContent").style.display="none";
+    document.getElementById("updateContent").style.display="block";
+    document.getElementById("selectedContent").style.display="none";
+}
+function showSelected() {
+    document.getElementById("createContent").style.display="none";
+    document.getElementById("deleteContent").style.display="none";
+    document.getElementById("updateContent").style.display="none";
+    document.getElementById("selectedContent").style.display="block";
+}
+

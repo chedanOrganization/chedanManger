@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <title>车单管理系统</title>
-    <link rel="stylesheet" href="view/css/mycss.css">
+    <link rel="stylesheet" href="view/css/logincss.css">
     <script src="view/js/login.js"  type="text/javascript"></script>
 </head>
 
@@ -25,8 +25,7 @@
         <!--登录框-->
         <div id="loginBlock" class="login tab-2">
             <div class="loginFunc">
-                <div id="lbNormal" class="loginFuncNormal">用户注册</div>
-                <div id="lbNormal2" class="signFuncNormal">帐号登录</div>
+                <div id="lbNormal" class="loginFuncNormal">帐号登录</div>
             </div>
             <!-- TODO 邮箱帐号登录， 现在有点问题，去掉加载中逻辑!!!! 应该显示js当前届满判断。 而不应该跳过去判断。 -->
             <form class="loginBlockForm" action="login/login.php" method="post">

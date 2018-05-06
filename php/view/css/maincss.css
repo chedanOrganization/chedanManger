@@ -1,9 +1,162 @@
 body {
-    background: #ffffff;
+    background: #c6d2cb;
     color:#1a1a1a;
-    font-size:14px;
+    font-size:16px;
     line-height:166.6%;
+    margin:0;
+    padding:0;
+    border:0
+}
+a {
+    text-decoration:none;
+    color:#1a1a1a;
+    font-size:16px;
+}
+a:hover {
+    color:#1a1a1a
+}
+button {
+    min-height: 26px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.fontWeight {
+    font-weight:700
 }
 .mainclass {
     padding-left: 10%;
+}
+.header {
+    width:1000px;
+    height:64px;
+    position:relative;
+    margin:0 auto;
+    z-index:2;
+    overflow:hidden;
+    background: #ffffff;
+}
+.headerTitle {
+    position:relative;
+    left:100px;
+    text-align:left;
+    top: 30%;
+    font-size: 30px;
+    color: #4e90e2;
+    height:64px;
+    margin:0 auto;
+    font-weight:700;
+    float: left;
+}
+.headerNav {
+    float: right;
+}
+.headerNavuser {
+    margin-right: 50px;
+    margin-top: 20px;
+    color:#1a1a1a;
+    font-size:16px;
+    float: right;
+}
+.headerNavexit {
+    margin-right: 50px;
+    float: right;
+    margin-top: 20px;
+}
+.headerBack {
+    width: 100%;
+    background: #ffffff;
+}
+.footerBack {
+    width: 100%;
+    background: #ffffff;
+}
+.footer {
+    width:1000px;
+    height:64px;
+    position:relative;
+    z-index:2;
+    overflow:hidden;
+    background: #ffffff;
+    display:block;
+    padding:0;
+    border:none;
+    margin:0 auto;
+    padding-top: 25px;
+}
+.footer-inner {
+    width:1000px;
+    height:63px;
+    overflow:visible;
+    margin:0 auto;
+    color:#848585;
+    position:relative
+}
+.footerNav {
+    top:25px;
+}
+.main {
+    width: 1000px;
+    height: 1000px;
+    position:relative;
+    margin:0 auto;
+    margin-top: 50px;
+}
+.mainLeft {
+    width: 300px;
+    height: 700px;
+    background: #ffffff;
+    float: left;
+    margin-right: 20px;
+    padding-top: 30px;
+}
+.mainRight {
+    width: 660px;
+    height: 900px;
+    float: right;
+    margin-left: 20px;
+    background: #ffffff;
+}
+.mainLeft button {
+    width: 70%;
+    height: 48px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 30px;
+    background-color: #c6d2cb;
+    border: none;
+    color: #1a1a1a;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+#manager {
+    width: 70%;
+    height: 48px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 30px;
+    background-color: #4e90e2;
+    border: none;
+    color: #ffffff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.mainRightControl button {
+    height: 64px;
+    width: 20%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.mainRightContent div{
+    width: 100%;
+    height: 100%;
 }
