@@ -251,12 +251,25 @@ a:hover {
 	clear:both
 }
 .loginFuncApp,.loginFuncNormal {
-	width:148px;
+	width:50%;
 	height:100%;
 	overflow:hidden;
 	position:relative;
 	line-height:46px;
 	float:left;
+	font-size:14px;
+	text-align:center;
+	+line-height:48px;
+	color:#626262;
+	cursor:pointer
+}
+.signFuncNormal {
+	width:50%;
+	height:100%;
+	overflow:hidden;
+	position:relative;
+	line-height:46px;
+	float:right;
 	font-size:14px;
 	text-align:center;
 	+line-height:48px;
