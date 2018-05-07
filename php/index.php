@@ -21,22 +21,32 @@
     </div>
 
     <!-- 主界面 -->
-    <div class="main" id="mainBg">
-        <!--登录框-->
-        <div id="loginBlock" class="login tab-2">
-            <div class="loginFunc">
-                <div id="lbNormal" class="loginFuncNormal">帐号登录</div>
-            </div>
-            <!-- TODO 邮箱帐号登录， 现在有点问题，去掉加载中逻辑!!!! 应该显示js当前届满判断。 而不应该跳过去判断。 -->
-            <form class="loginBlockForm" action="login/login.php" method="post">
-                <br/><br/><br/>
-                <input id="name" name="name" placeholder="请输入账号">
-                <br/><br/>
-                <input id="password"  name="password" placeholder="请输入密码">
-                <br/><br/><br/>
-                <input type="submit" value="登录" name="submit" >
-            </form>
+    <div class="main">
 
+        <div class="mainnContent">
+            <!-- 左侧展示广告logo -->
+            <div class="mainLoginLeft">
+                <img class="mainLoginAd" src="view/image/baoloukuangbinge.jpg" width="80%" height="80%" />
+            </div>
+            <!--登录框-->
+            <div class="mainLoginRight">
+                <div class="loginFunc">
+                    <div class="loginFuncNormal" id="loginFuncNormal">
+                        帐号登录</div>
+                </div>
+                <!-- TODO 邮箱帐号登录， 现在有点问题，去掉加载中逻辑!!!! 应该显示js当前届满判断。 而不应该跳过去判断。 -->
+                <form class="loginBlockForm" action="php/login.php" method="post">
+                    <input id="name" name="name" placeholder="请输入账号">
+                    <input id="password"  name="password" placeholder="请输入密码">
+                    <input id="submitButton" type="submit" value="登录" name="submit" >
+                </form>
+                <!-- 底部提示文案 -->
+                <div class="loginHint">
+                    <p>
+                        友情提示：系统账号有管理员统一管理，请联系管理员为您创建账号。
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
 

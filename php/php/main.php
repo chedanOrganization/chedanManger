@@ -3,6 +3,10 @@
     $name = $_SESSION['name'];
     $password = $_SESSION['password'];
     session_destroy();
+
+    // TODO 这里，做一个thinkPhp 调用数据库的例子
+
+
 ?>
 
 <html lang="en">
